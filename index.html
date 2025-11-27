@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sarra Sabila — Resume</title>
+  <meta name="description" content="Resume online — Sarra Sabila. Mahasiswa Sistem Informasi | Lulusan SMK Farmasi | Pengalaman administrasi kesehatan & pramuniaga" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#hero">Sarra<span class="dot">.</span></a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hi, saya</p>
+          <h1 class="name">Sarra Sabila</h1>
+          <p class="lead">Mahasiswa Sistem Informasi di Universitas Komputama, lulusan SMK Farmasi, dengan pengalaman kerja lebih dari 2 tahun di bidang administrasi kesehatan dan pramuniaga. Saya menggabungkan pemahaman proses kesehatan dan kemampuan teknologi untuk menghadirkan solusi yang efisien.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#contact">Hubungi Saya</a>
+            <a class="btn btn-ghost" href="#" onclick="downloadResume(); return false;">Download CV</a>
+          </div>
+          <ul class="hero-meta">
+            <li><strong>Lokasi:</strong> Jakarta, Indonesia</li>
+            <li><strong>Status:</strong> Mahasiswa (Sistem Informasi) — Terbuka untuk magang / projek part-time</li>
+          </ul>
+        </div>
+        <div class="hero-photo reveal">
+          <div class="photo-card" aria-hidden="true">
+            <svg width="100%" height="100%" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0" stop-color="#ffdce6"/>
+                  <stop offset="1" stop-color="#ffeef4"/>
+                </linearGradient>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#g1)"></rect>
+              <g transform="translate(50,40)">
+                <circle cx="150" cy="110" r="62" fill="#fff" opacity="0.85"></circle>
+                <rect x="50" y="200" rx="16" ry="16" width="240" height="120" fill="#fff" opacity="0.85"></rect>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>About Me</h2>
+          <p class="section-sub">Dari SMK Farmasi ke dunia teknologi informasi — perjalanan belajar dan pengalaman kerja saya.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>Saya lulusan SMK Farmasi yang saat ini sedang menempuh studi Sistem Informasi di Universitas Komputama. Sebelum beralih ke studi TI, saya memiliki pengalaman praktis lebih dari dua tahun di lingkungan pelayanan kesehatan — bekerja sebagai pramuniaga di apotek dan kemudian menangani administrasi kesehatan. Pengalaman ini memberi saya pemahaman mendalam tentang alur kerja klinis, pencatatan data pasien, dan layanan pelanggan di sektor kesehatan.</p>
+
+            <p>Saat ini saya mempelajari pengembangan web, basis data, dan sistem informasi untuk menggabungkan latar belakang kesehatan saya dengan kemampuan teknis. Saya tertarik membangun solusi yang meningkatkan efisiensi administrasi kesehatan, digitalisasi proses, dan pengalaman pengguna.</p>
+
+            <ul class="about-list">
+              <li><strong>Pengalaman Kerja:</strong> Lebih dari 2 tahun (Pramuniaga & Administrasi Kesehatan)</li>
+              <li><strong>Pendidikan:</strong> SMK Farmasi — Lulusan; Saat ini: Universitas Komputama, Prodi Sistem Informasi</li>
+              <li><strong>Minat:</strong> Sistem Informasi Kesehatan, Data Entry & Manajemen, UI sederhana untuk staf kesehatan</li>
+            </ul>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat">
+              <h3>2+</h3>
+              <p>Tahun pengalaman</p>
+            </div>
+            <div class="stat">
+              <h3>SMK</h3>
+              <p>Farmasi</p>
+            </div>
+            <div class="stat">
+              <h3>Universitas</h3>
+              <p>Sistem Informasi (Sedang Studi)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Skills</h2>
+          <p class="section-sub">Skil teknis, administratif, dan domain kesehatan yang saya miliki.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skills-list reveal">
+            <div class="skill">
+              <div class="skill-title"><span>Administrasi Kesehatan</span><span>92%</span></div>
+              <div class="progress">
+                <div class="progress-bar" data-width="92"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-title"><span>Pramuniaga / Pelayanan Apotek</span><span>90%</span></div>
+              <div class="progress">
+                <div class="progress-bar" data-width="90"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-title"><span>Data Entry & MS Excel</span><span>88%</span></div>
+              <div class="progress">
+                <div class="progress-bar" data-width="88"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-title"><span>Dasar Web Development</span><span>75%</span></div>
+              <div class="progress">
+                <div class="progress-bar" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-tools reveal">
+            <h3>Tools & Workflow</h3>
+            <ul class="tools-list">
+              <li>Microsoft Office</li>
+              <li>Figma (basic)</li>
+              <li>VSCode</li>
+              <li>Git / GitHub</li>
+              <li>Database basics (MySQL)</li>
+            </ul>
+            <p class="mini-note">Saya mengedepankan ketelitian, komunikasi yang baik, dan kepatuhan pada prosedur kesehatan saat bekerja.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Experience</h2>
+          <p class="section-sub">Peran dan pengalaman kerja saya terkait layanan kesehatan dan administrasi.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Administrasi Kesehatan</h3>
+              <span class="timeline-meta">Klinik / Puskesmas — 2021 — 2023</span>
+              <p>Menangani pendaftaran pasien, pengelolaan rekam medis administrasi, pencatatan kunjungan, dan koordinasi jadwal. Memastikan kelengkapan dokumen serta membantu proses pelaporan internal.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Pramuniaga / Asisten Apotek</h3>
+              <span class="timeline-meta">Apotek Sehat — 2019 — 2021</span>
+              <p>Memberikan layanan pelanggan, menyiapkan obat sesuai resep, menjaga stok barang, serta memberikan informasi dasar terkait penggunaan obat sesuai arahan apoteker.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Mahasiswa Sistem Informasi</h3>
+              <span class="timeline-meta">Universitas Komputama — 2023 — Present</span>
+              <p>Saat ini menempuh studi Sistem Informasi, mempelajari pengembangan aplikasi, basis data, dan manajemen sistem untuk mengembangkan kompetensi teknologi yang mendukung sektor kesehatan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Portfolio</h2>
+          <p class="section-sub">Contoh pekerjaan, dokumentasi, dan proyek pembelajaran yang relevan.</p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="card reveal">
+            <a class="card-link" href="#" data-img="https://source.unsplash.com/collection/190727/800x600" aria-label="Project 1">
+              <div class="card-media" style="background-image:url('https://source.unsplash.com/collection/190727/800x600');"></div>
+              <div class="card-body">
+                <h3>Proyek Pengelolaan Data Pasien (Studi)</h3>
+                <p>Prototype sederhana untuk pencatatan kunjungan pasien dan riwayat obat menggunakan form web.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="card reveal">
+            <a class="card-link" href="#" data-img="https://source.unsplash.com/collection/888146/800x600" aria-label="Project 2">
+              <div class="card-media" style="background-image:url('https://source.unsplash.com/collection/888146/800x600');"></div>
+              <div class="card-body">
+                <h3>Dashboard Inventaris Apotek</h3>
+                <p>Contoh dashboard untuk memantau stok obat dan notifikasi restock.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="card reveal">
+            <a class="card-link" href="#" data-img="https://source.unsplash.com/collection/1163637/800x600" aria-label="Project 3">
+              <div class="card-media" style="background-image:url('https://source.unsplash.com/collection/1163637/800x600');"></div>
+              <div class="card-body">
+                <h3>Landing Page Informasi Kesehatan</h3>
+                <p>Landing page edukasi singkat tentang obat dan penggunaan aman untuk pasien.</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="card reveal">
+            <a class="card-link" href="#" data-img="https://source.unsplash.com/collection/827743/800x600" aria-label="Project 4">
+              <div class="card-media" style="background-image:url('https://source.unsplash.com/collection/827743/800x600');"></div>
+              <div class="card-body">
+                <h3>Proyek PWA — Katalog Produk</h3>
+                <p>Aplikasi katalog produk yang mendukung akses offline untuk pengelolaan barang di lapangan.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2>Contact</h2>
+          <p class="section-sub">Mari berkolaborasi — kirim pesan dan saya akan merespons secepatnya.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form id="contactForm" class="contact-form reveal" onsubmit="submitForm(event)">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Nama lengkap" />
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="email@domain.com" />
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Apa yang ingin Anda bicarakan?"></textarea>
+            </div>
+            <div class="form-row">
+              <button class="btn btn-primary" type="submit">Send Message</button>
+            </div>
+          </form>
+
+          <div class="contact-card reveal">
+            <h3>Get in touch</h3>
+            <p>Email: <a href="mailto:hello@sarrasabila.com">hello@sarrasabila.com</a></p>
+            <p>Phone: <a href="tel:+628123456789">+62 812-3456-789</a></p>
+            <div class="socials">
+              <a href="#" aria-label="GitHub">GitHub</a>
+              <a href="#" aria-label="LinkedIn">LinkedIn</a>
+              <a href="#" aria-label="Dribbble">Dribbble</a>
+            </div>
+            <p class="mini-note">Atau kirim pesan langsung melalui form di sebelah.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Sarra Sabila. All rights reserved.</p>
+      <p class="credits">Built with care &nbsp;•&nbsp; Soft Pink Theme</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
